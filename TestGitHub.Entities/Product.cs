@@ -14,7 +14,9 @@ namespace TestGitHub.Entities
 		public string Number {get; set;}
 
 	/*add customized code between this region*/
-
+	
+         [DataMember]
+	 public DateTime CreateDate {get;set;}
 	/*add customized code between this region*/
 	}
 }
